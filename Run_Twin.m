@@ -202,10 +202,10 @@ Ismax           = 70;
 ModInd_Limit    = 0.98;                     % Limit Modulation Index  [0 - 1]
 
 % Control Type
-DriveMethod       = 1;  % 0: Voltage Control, 1: Current Control, 2: Speed Control, 3: Torque Control, 4: Position Control
+DriveMethod     = 1;  % 0: Voltage Control, 1: Current Control, 2: Speed Control, 3: Torque Control, 4: Position Control
 
 % Modulation Strategy
-ModStrategy       = 1;  % 0: SPWM 1:SVPWM 2:THIPWM 3:THZSPWM 4:DPWM1 5:DPWMMAX 6:DPWMMIN
+ModStrategy     = 1;  % 0: SPWM 1:SVPWM 2:THIPWM 3:THZSPWM 4:DPWM1 5:DPWMMAX 6:DPWMMIN
 
 % Switching frequency
 f_sw            = 10e3;
